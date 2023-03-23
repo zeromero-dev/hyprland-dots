@@ -39,8 +39,8 @@
     "on-click": "playerctl previous",
     "on-click-right": "playerctl next",
     "format-icons": {
-      "Playing": "<span foreground='#B8BB26'> </span>",
-      "Paused": "<span foreground='#928374'> </span>"
+      "Playing": "<span foreground='#7d1c50'> </span>",
+      "Paused": "<span foreground='#e8b7e8'> </span>"
     }
   },
   "battery": {

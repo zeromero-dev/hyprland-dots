@@ -1,0 +1,7 @@
+[Added Associations]
+x-scheme-handler/sms=org.gnome.Shell.Extensions.GSConnect.desktop;
+x-scheme-handler/tel=org.gnome.Shell.Extensions.GSConnect.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-W51Q01.desktop;
+
+[Default Applications]
+x-scheme-handler/tg=userapp-Telegram Desktop-W51Q01.desktop

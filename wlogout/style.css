@@ -1,0 +1,55 @@
+* {
+	background-image: none;
+	opacity: 0.8;
+}
+
+window {
+	background-color: #191825;
+}
+
+button {
+	border-radius: 30px;
+    color: white;
+	background-color: #191825;
+	border-style: solid	;
+	border-width: 2px;
+	background: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-weight: bold;
+}
+
+button:focus, button:active, button:hover {
+	box-shadow: #865DFF 0px 0px 0px 2px;
+	background-color: #865DFF;
+	outline-style: none;
+}
+
+#lock {
+	background-size: 100%;
+    background-image: image(url("/home/bladen/Downloads/lock.jpg"), url("/usr/local/share/wleave/icons/lock.svg"));
+}
+
+#logout {
+	background-size: 130%;
+    background-image: image(url("/home/bladen/Downloads/logout.jpg"), url("/usr/local/share/wleave/icons/logout.svg"));
+}
+
+#suspend {
+	background-size: 100%;
+    background-image: image(url("/home/bladen/Downloads/sleep.jpg"), url("/home/bladen/Downloads/sleep.jpg"));
+}
+
+#hibernate {
+    background-image: image(url("/usr/share/wleave/icons/hibernate.svg"), url("/usr/local/share/wleave/icons/hibernate.svg"));
+}
+
+#shutdown {
+	background-size: 100%;
+    background-image: image(url("/home/bladen/Downloads/shinji.jpg"), url("/home/bladen/Downloads/shinji.jpg"));
+}
+
+#reboot {
+	background-size: 100%;
+    background-image: image(url("/home/bladen/Downloads/reboot.jpg"), url("/usr/local/share/wleave/icons/reboot.svg"));
+}

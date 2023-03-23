@@ -1,0 +1,151 @@
+/* Custom css vars are declared like this: */
+@define-color main-dark #a32468;
+@define-color main-light #e8b7e8;
+@define-color main-black #191825;
+@define-color border-color #9c7b9c;
+
+* {
+    border: none;
+    border-radius: 8;
+    font-family: "Font Awsome 5 Free", "VictorMono Nerd Font";
+    font-size: 16px;
+    font-style: normal;
+}
+
+window#waybar {
+    border-style: solid;
+    background: transparent;
+    color: @main-dark;
+}
+
+#workspaces {
+  background-color: @main-black;
+  margin: 10px 10px 0px 10px;
+  border-radius: 16px;
+  border: solid 1px @border-color;
+  font-weight: bold;
+}
+#workspaces button {
+    /* padding: 0px 5px; */
+    /* padding: 5px; */
+    color: @main-dark;
+}
+
+#workspaces button.active {
+    color: @main-light;
+    background-color: #7d1c50;
+    border-radius: 16px;
+}
+
+#workspaces button:hover {
+  background-color: #7d1c50;
+  border-radius: 16px;
+}
+
+#custom-date, #clock, #battery, #pulseaudio, #network, #custom-randwall {
+  background-color: @main-black;
+  padding: 5px 10px;
+  margin: 10px 5px 0px 5px;
+  border-radius: 16px;
+  border: solid 1px @border-color;
+}
+
+#custom-date {
+  color: @main-light;
+}
+
+#custom-power {
+  color: #24283b;
+  background-color: #db4b4b;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  padding: 5px 10px;
+}
+
+#tray {
+    background-color: @main-black;
+    margin: 10px 10px 0px -5px;
+    border-radius: 16px;
+    padding: 0px 8px;
+    border: solid 1px @border-color;
+}
+
+#clock {
+    color: @main-light;
+    border-radius: 16px;
+    margin-right: 10px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+
+#battery {
+    color: @main-light;
+}
+
+#battery.charging {
+    color: @main-light;
+}
+
+#battery.warning:not(.charging) {
+    background-color: #f7768e;
+    color: #24283b;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* Brightness */
+#backlight {
+    background-color: @main-black;
+    border-radius: 16px;
+    border: solid 1px @border-color;
+    margin-top: 10px;
+    padding: 8px;
+    color: @main-light;
+    /* color: #db4b4b;
+    border-radius: 0px 0px 0px 0px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 0px; */
+}
+
+#network {
+    color: @main-light;
+    border-radius: 16px;
+    /* margin: 10px 5px 0px 5px; */
+    /* margin-right: 5px; */
+}
+
+#pulseaudio {
+    color: @main-light;
+    border-radius: 16px;
+    margin-left: 0px;
+}
+
+#pulseaudio.muted {
+    background-color: @main-black;
+    color: #928374;
+    border-radius: 16px;
+    margin-left: 0px;
+}
+
+#custom-randwall {
+    color: @main-light;
+    border-radius: 16px;
+    margin-right: 0px;
+}
+
+#custom-playerctl {
+  background-color: @main-black;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 16px;
+  border: solid 1px #EBDBB2;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-style: italic;
+}

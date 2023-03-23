@@ -3,6 +3,7 @@
 @define-color main-light #e8b7e8;
 @define-color main-black #191825;
 @define-color border-color #9c7b9c;
+@define-color darken #7d1c50
 
 * {
     border: none;
@@ -33,7 +34,7 @@ window#waybar {
 
 #workspaces button.active {
     color: @main-light;
-    background-color: #7d1c50;
+    background-color: @darken;
     border-radius: 16px;
 }
 

@@ -3,7 +3,7 @@
 @define-color main-light #e8b7e8;
 @define-color main-black #191825;
 @define-color border-color #9c7b9c;
-@define-color darken #7d1c50
+@define-color darken #7d1c50;
 
 * {
     border: none;
@@ -92,8 +92,8 @@ window#waybar {
 }
 
 #battery.warning:not(.charging) {
-    background-color: #f7768e;
-    color: #24283b;
+    background-color: @main-dark;
+    color: @main-light;
     border-radius: 5px 5px 5px 5px;
 }
 

@@ -31,7 +31,7 @@ yay/
 
 #Ignore all wallpapers except provided
 wallpapers/*
-!wallpapers/Reze_purp_upscayl_4x_realesrgan-x4plus.png
+!wallpapers/bladen_new_eyes.png
 
 #Spotify sessions and etc unneeded stuff
 spotify/

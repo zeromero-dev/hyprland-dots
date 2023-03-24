@@ -28,16 +28,21 @@ user-dirs.dirs/
 user-dirs.locale/
 vlc/
 yay/
+
+#Ignore all wallpapers except provided
+wallpapers/*
+!wallpapers/Reze_purp_upscayl_4x_realesrgan-x4plus.png
+
+#Spotify sessions and etc unneeded stuff
 spotify/
 spicetify/Backup/
 spicetify/CustomApps/
 spicetify/Extensions/
 spicetify/Extracted/
 
+#Some confs to ignore
 .gsd-keyboard.settings-ported 
-
 QtProject.conf 
-
 mimeapps.list 
 user-dirs.dirs
 user-dirs.locale
